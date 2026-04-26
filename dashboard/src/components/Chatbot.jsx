@@ -21,7 +21,7 @@ const Chatbot = ({ role }) => {
     setLoading(true);
 
     try {
-      const BASE = "http://localhost:5000";
+      const BASE = "https://vasudev-hospital-management-system.onrender.com";
       const url  = role === "admin"
         ? `${BASE}/api/v1/chatbot/admin`
         : `${BASE}/api/v1/chatbot/user`;

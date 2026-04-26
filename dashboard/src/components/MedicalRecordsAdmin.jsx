@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API = "http://localhost:5000/api/v1";
+const API = "https://vasudev-hospital-management-system.onrender.com/api/v1";
 
 const MedicalRecordsAdmin = () => {
   const [records, setRecords] = useState([]);

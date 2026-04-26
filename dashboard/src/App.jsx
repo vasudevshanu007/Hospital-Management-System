@@ -35,7 +35,7 @@ const TopBar = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.get("http://localhost:5000/api/v1/user/admin/logout", {
+      await axios.get("https://vasudev-hospital-management-system.onrender.com/api/v1/user/admin/logout", {
         withCredentials: true,
       });
       setIsAuthenticated(false);
@@ -164,7 +164,7 @@ const App = () => {
     const fetchAdmin = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/v1/user/admin/me",
+          "https://vasudev-hospital-management-system.onrender.com/api/v1/user/admin/me",
           { withCredentials: true }
         );
         setIsAuthenticated(true);

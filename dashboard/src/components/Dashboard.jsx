@@ -6,7 +6,7 @@ import {
 } from "recharts";
 import "../App.css";
 
-const API = "http://localhost:5000/api/v1";
+const API = "https://vasudev-hospital-management-system.onrender.com/api/v1";
 const COLORS = ["#2b6cb0", "#38a169", "#e53e3e", "#d69e2e", "#805ad5", "#319795", "#dd6b20", "#d53f8c", "#3182ce"];
 
 const StatCard = ({ label, value, color = "#2b6cb0" }) => (

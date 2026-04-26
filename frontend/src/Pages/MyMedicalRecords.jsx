@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Context } from "../main";
 
-const API = "http://localhost:5000/api/v1";
+const API = "https://vasudev-hospital-management-system.onrender.com/api/v1";
 
 const typeColor = {
   Diagnosis: "#2b6cb0", Allergy: "#e53e3e", Vitals: "#38a169",

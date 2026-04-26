@@ -20,7 +20,7 @@ const Sidebar = () => {
 
   const handleLogout = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/v1/user/admin/logout", { withCredentials: true });
+      const res = await axios.get("https://vasudev-hospital-management-system.onrender.com/api/v1/user/admin/logout", { withCredentials: true });
       toast.success(res.data.message);
       setIsAuthenticated(false);
     } catch (err) {
